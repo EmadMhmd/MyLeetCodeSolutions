@@ -10,5 +10,4 @@ var sortedSquares = function(nums) {
     }
     
     return absNums.sort(function(a, b){return a-b});
-    
 };
