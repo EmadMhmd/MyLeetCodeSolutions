@@ -8,6 +8,6 @@ var sortedSquares = function(nums) {
         absNums.push(Math.pow(Math.abs(nums[i]),2));
     }
     
-    const sortedArr = absNums.sort(function(a, b){return b - a});
-    return sortedArr.reverse()
+    return absNums.sort(function(a, b){return a-b});
+
 };
